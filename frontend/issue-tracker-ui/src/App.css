@@ -1,0 +1,124 @@
+.auth-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  background: #1f1f1f;
+  color: white;
+}
+
+.auth-left {
+  padding: 80px;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+.auth-left h1 {
+  font-size: 48px;
+}
+
+.auth-left ul {
+  margin-top: 20px;
+}
+
+.auth-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background: #2a2a2a;
+  padding: 40px;
+  width: 320px;
+  border-radius: 12px;
+}
+
+.auth-card input,
+.auth-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  background: #4ca1af;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.switch-text span {
+  color: #4ca1af;
+  cursor: pointer;
+}
+
+.dashboard {
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.issue-card {
+  background: #666363;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: black solid;   /* Required for border to show */
+  border-width: 4px;
+}
+
+/* ===============================
+   Issues page styles
+   =============================== */
+
+.issue-create {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-style: black solid;   /* Required for border to show */
+  border-width: 4px;
+}
+
+.issue-create input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.issue-create button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #4f46e5;
+  border: black;
+  color: white;
+  font-weight: 600;
+}
+
+.issue-card {
+  background: #536d86;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.issue-card span {
+  opacity: 0.8;
+}
