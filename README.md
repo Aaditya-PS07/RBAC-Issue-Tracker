@@ -87,6 +87,8 @@ IssueTracker/
 
 1.  Prerequisites
 
+   Download the project as .zip
+
 .NET SDK (8+)
 
 Node.js (18+)
@@ -95,12 +97,15 @@ npm
 
 2.  Run Backend
 
-cd backend/IssueTracker.API
+cd .\IssueTracker\backend\IssueTracker.API
+dotner build
 dotnet run
 
 Backend URL:
 
 http://localhost:5247
+
+(Note : If the localhost Port changes, kindly change it in the files )
 
 Swagger:
 
@@ -109,11 +114,13 @@ http://localhost:5247/swagger
 
 3.  Run Frontend
 
-cd frontend
+cd .\IssueTracker\frontend\issue-tracker-ui>
 npm install
 npm run dev
 
 Frontend URL:
+
+(Note : If the localhost Port changes, kindly change it in the files )
 
 http://localhost:5173
 
